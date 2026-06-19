@@ -1,7 +1,7 @@
 {
   "builds": [
     { "src": "main.py", "use": "@vercel/python" },
-    { "src": "public/**", "use": "@vercel/static" }
+    { "src": "index.html", "use": "@vercel/static" }
   ],
   "routes": [
     { "src": "/search/doctors", "dest": "main.py" },
