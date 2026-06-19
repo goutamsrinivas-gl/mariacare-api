@@ -3,6 +3,7 @@
     { "src": "main.py", "use": "@vercel/python" }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "main.py" }
+    { "src": "/search/doctors", "dest": "main.py" },
+    { "handle": "filesystem" }
   ]
 }
